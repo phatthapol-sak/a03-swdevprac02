@@ -5,7 +5,7 @@ export default function Card() {
   return (
     <div className={styles.card}>
         <div className={styles.cardimg}>
-            <Image src="/img/Venue.jpg" alt="Venue Picture" fill={true} objectFit='cover' />
+            <Image src="/img/Venue.jpg" alt="Venue Picture" fill={true} className="object-cover"/>
         </div>
         <div className={styles.cardtext}>
             <h3>The Botanic Glasshouse</h3>
